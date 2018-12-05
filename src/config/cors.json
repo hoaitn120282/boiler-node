@@ -1,0 +1,16 @@
+{
+    "allow": {
+        "origin": "*",
+        "methods": "GET,PATCH,PUT,POST,DELETE,HEAD,OPTIONS",
+        "headers": "Content-Type, Authorization, Content-Length, X-Requested-With, X-HTTP-Method-Override"
+    },
+    "expose": {
+        "headers": null
+    },
+    "max": {
+        "age": null
+    },
+    "specials": {
+        "powered": null
+    }
+}

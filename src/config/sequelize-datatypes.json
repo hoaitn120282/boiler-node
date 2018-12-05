@@ -1,0 +1,22 @@
+{
+    "string": "STRING",
+    "text": "TEXT",
+    "integer": "INTEGER",
+    "bigint": "BIGINT",
+    "float": "FLOAT",
+    "real": "REAL",
+    "double": "DOUBLE",
+    "decimal": "DECIMAL",
+    "date": "DATE",
+    "dateonly": "DATEONLY",
+    "boolean": "BOOLEAN",
+    "array": "ARRAY",
+    "json": "JSON",
+    "jsonb": "JSONB",
+    "blob": "BLOB",
+    "uuid": "UUID",
+    "cidr": "CIDR",
+    "inet": "INET",
+    "macaddr": "MACADDR",
+    "range": "RANGE"
+}

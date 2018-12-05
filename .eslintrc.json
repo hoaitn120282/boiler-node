@@ -1,0 +1,43 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "globals": {
+        "testHelper": true,
+        "app": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
+    },
+    "extends": ["node-app", "eslint:recommended"],
+    "rules": {
+        "no-var": "warn",
+        "prefer-const": "warn",
+        "no-console": "warn",
+        "global-require": "off",
+        "indent": [
+            "warn",
+            4,
+            {
+                "MemberExpression": 1,
+                "SwitchCase": 1,
+                "VariableDeclarator": 2
+            }
+        ],
+        "linebreak-style": ["off", "unix"],
+        "semi": ["warn", "always"],
+        "no-unused-vars": [
+            "warn",
+            {
+                "vars": "all",
+                "args": "none",
+                "ignoreRestSiblings": false
+            }
+        ]
+    }
+}

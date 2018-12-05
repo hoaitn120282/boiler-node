@@ -1,0 +1,5 @@
+{
+    "debug": true,
+    "tokenLifetime": 6480000,
+    "clientUrl": ""
+}

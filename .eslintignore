@@ -1,0 +1,6 @@
+bin/**
+fixtures/**
+node_modules/**
+sessions/**
+doc/**
+nbproject/**

@@ -1,0 +1,11 @@
+process.env.NODE_ENV='development'
+const path = require('path');
+const getClientEnvironment = require('./scripts/env');
+getClientEnvironment('');
+
+module.exports = {
+    "config": path.resolve('./src/config/database.js'),
+    "models-path": path.resolve('./src/database/models'),
+    "seeders-path": path.resolve('./src/database/seeders'),
+    "migrations-path": path.resolve('./src/database/migrations')
+};
