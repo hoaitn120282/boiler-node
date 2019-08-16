@@ -34,7 +34,7 @@ The easiest way to get started is to clone the repository:
 
 ```bash
 # Get the latest snapshot
-git clone git@gitlab.com:qsoftvietnam/qnode-starterkit.git myproject
+git clone https://github.com/hoaitn120282/boiler-node.git myproject
 
 # Change directory
 cd myproject
